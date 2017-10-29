@@ -1,0 +1,7 @@
+CREATE DATABASE `demodb` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+CREATE TABLE `employee` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
